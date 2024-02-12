@@ -19,6 +19,7 @@ scoreboard objectives add zs.menu.section trigger
 scoreboard objectives add zs.menu.interaction trigger
 scoreboard objectives add zs.wave dummy
 scoreboard objectives add zs.died deathCount
+scoreboard objectives add zs.game dummy
 
 ##Important for ZS maps
 #Entity Postitions

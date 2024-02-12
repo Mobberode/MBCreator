@@ -23,3 +23,4 @@ scoreboard objectives remove zs.timer
 scoreboard objectives remove zs.relogged
 scoreboard objectives remove zs.menu.section
 scoreboard objectives remove zs.menu.interaction
+scoreboard objectives remove zs.game
