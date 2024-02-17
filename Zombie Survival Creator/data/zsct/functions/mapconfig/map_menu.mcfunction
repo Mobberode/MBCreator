@@ -1,0 +1,1 @@
+tellraw @s ["",{"text": "ZSCreator Map Configurations","color": "yellow"},{"text": "\n[Map Statistics]","color": "gold","clickEvent": {"action": "run_command","value": "/trigger zsct.stats set 1"}},{"text": "\n\n[Back]","color": "gold","clickEvent": {"action": "run_command","value": "/function zsct:mapconfig/menu"}},{"text": "\n// ZSCreator Beta 5 //","color": "gray"}]

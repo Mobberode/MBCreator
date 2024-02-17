@@ -1,6 +1,10 @@
 ##Element Viewer
 execute as @a at @s run function zsct:tools/misc/viewer/cast
 
+##Stats Check
+scoreboard players enable @a zsct.stats
+execute as @a[scores={zsct.stats=1..}] run function zsct:stats
+
 ##Page Check
 execute as @a[scores={zs.coas=1..}] at @s run function zsct:tools/misc/menu
 
