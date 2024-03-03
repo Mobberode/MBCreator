@@ -67,6 +67,8 @@ execute at @e[type=minecraft:area_effect_cloud,tag=zs.ravagerspawn] run particle
 #Magma Cube
 execute at @e[type=minecraft:area_effect_cloud,tag=zs.magma.cubespawn] run particle minecraft:item magma_cream ~ ~ ~ 0 0.1 0 0.05 20 normal @a[tag=!zsct.eparticles_disabled]
 execute at @e[type=minecraft:area_effect_cloud,tag=zs.magma.cubespawn] run particle minecraft:flame ~ ~ ~ 0 0.1 0 0.01 2 normal @a[tag=!zsct.eparticles_disabled]
+#Drowned
+execute at @e[type=minecraft:area_effect_cloud,tag=zs.drownedspawn] run particle falling_water ~ ~ ~ 0 0.1 0 0.05 20 normal @a[tag=!zsct.eparticles_disabled]
 ## Specialised Mobs
 
 #Wither
