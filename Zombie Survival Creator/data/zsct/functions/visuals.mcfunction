@@ -6,6 +6,10 @@ execute at @e[type=minecraft:area_effect_cloud,tag=zs.-border] run particle mine
 #Player Spawn
 execute at @e[type=minecraft:area_effect_cloud,tag=zs.plrspawn] run particle minecraft:glow ~ ~ ~ 0.2 0.1 0.2 0 2 normal @a[tag=!zsct.eparticles_disabled]
 
+#Mutated
+execute at @e[type=minecraft:area_effect_cloud,tag=zs.+buystation] run particle minecraft:glow ~ ~ ~ 0.01 0.5 0.01 0 5 normal @a[tag=!zsct.eparticles_disabled]
+execute at @e[type=minecraft:area_effect_cloud,tag=zs.-buystation] run particle minecraft:reverse_portal ~ ~ ~ 0 0.5 0 0.025 10 normal @a[tag=!zsct.eparticles_disabled]
+
 ##Mobs
 #Zombie
 execute at @e[type=minecraft:area_effect_cloud,tag=zs.zombiespawn] run particle minecraft:item rotten_flesh ~ ~ ~ 0.2 0.1 0.2 0 10 normal @a[tag=!zsct.eparticles_disabled]

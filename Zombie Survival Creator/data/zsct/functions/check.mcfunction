@@ -18,6 +18,10 @@ execute as @e[type=bat,tag=zs.-border] at @s run function zsct:tools/border/nega
 ##Player Spawn
 execute as @e[type=bat,tag=zs.plrspawn] at @s run function zsct:tools/player/playerspawn
 
+##Mutated
+execute as @e[type=bat,tag=zs.+buystation] at @s run function zsct:tools/mutated/buystationplus
+execute as @e[type=bat,tag=zs.-buystation] at @s run function zsct:tools/mutated/buystationminus
+
 ##Mob Spawns
 #Zombie 1
 execute as @e[type=bat,tag=zs.zombiespawn] at @s run function zsct:tools/mob/zombiespawn
@@ -85,6 +89,8 @@ execute as @e[type=bat,tag=zs.wardenspawn] at @s run function zsct:tools/mob/war
 execute as @e[type=bat,tag=zs.ender.dragonspawn] at @s run function zsct:tools/mob/enderdragonspawn
 #Wither 5
 execute as @e[type=bat,tag=zs.witherspawn] at @s run function zsct:tools/mob/witherspawn
+#Drowned 5
+execute as @e[type=bat,tag=zs.drownedspawn] at @s run function zsct:tools/mob/drownedspawn
 
 ##Creeper Survival Mobs (ZSC Bonus Mode 1 Specfic) -1
 #Fast
@@ -98,6 +104,9 @@ execute as @e[type=bat,tag=zcs.fastheavycreeperspawn] at @s run function zsct:to
 
 ##Particles
 function zsct:visuals
+
+##Reset Age
+execute as @e[tag=zsct.element] run data modify entity @s Age set value 0
 
 ##Loop
 schedule function zsct:check 2t

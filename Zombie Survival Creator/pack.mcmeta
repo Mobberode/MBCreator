@@ -1,6 +1,17 @@
 {
     "pack": {
-        "pack_format": 15,
+        "pack_format": 33,
         "description": "The Zombie Survival Creator Tools for ZS Maps"
+    },
+    "overlays": {
+      "entries": [
+        {
+          "formats": {
+            "min_inclusive": 22,
+            "max_inclusive": 26
+          },
+          "directory": "1202_4"
+          }
+        ]
     }
 }

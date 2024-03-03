@@ -8,9 +8,9 @@ execute if score @s zsct.turned.page matches ..-1 run scoreboard players add @s 
 
 ##Prevent invalid page numbers
 #Positive
-execute if score @s zsct.page matches 6.. run scoreboard players set @s zsct.page -1
+execute if score @s zsct.page matches 7.. run scoreboard players set @s zsct.page -1
 #Negative
-execute if score @s zsct.page matches -2 run scoreboard players set @s zsct.page 5
+execute if score @s zsct.page matches -2 run scoreboard players set @s zsct.page 6
 
 ##Refresh item hotbar
 execute if score @s zsct.page matches 0 as @s run function zsct:tools/givetools/give/give
@@ -18,7 +18,8 @@ execute if score @s zsct.page matches 1 as @s run function zsct:tools/givetools/
 execute if score @s zsct.page matches 2 as @s run function zsct:tools/givetools/give/page3
 execute if score @s zsct.page matches 3 as @s run function zsct:tools/givetools/give/page4
 execute if score @s zsct.page matches 4 as @s run function zsct:tools/givetools/give/page5
-execute if score @s zsct.page matches 5 as @s run function zsct:tools/givetools/give/miscpage
+execute if score @s zsct.page matches 5 as @s run function zsct:tools/givetools/give/mutated1
+execute if score @s zsct.page matches 6 as @s run function zsct:tools/givetools/give/miscpage
 execute if score @s zsct.page matches ..-1 as @s run function zsct:tools/givetools/give/creepersurvival
 
 ##Loop until zsct.turned.page is 0

@@ -5,6 +5,10 @@ execute if entity @e[tag=zs.-border,distance=0..2] run title @a[limit=1,sort=nea
 ##Player Spawn
 execute if entity @e[tag=zs.plrspawn,distance=0..2] run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Player Spawn"}
 
+##Mutated Elements
+execute if entity @e[tag=zs.+buystation,distance=0..2] run title @a[limit=1,sort=nearest] actionbar {"text": "Element: + Buy Station Border Line [Can be Configured]"}
+execute if entity @e[tag=zs.-buystation,distance=0..2] run title @a[limit=1,sort=nearest] actionbar {"text": "Element: - Buy Station Border Line [Can be Configured]"}
+
 ##Mob Spawns
 #Zombie 1
 execute if entity @e[tag=zs.zombiespawn,distance=0..2] run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Zombie Spawn"}

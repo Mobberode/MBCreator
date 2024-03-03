@@ -6,6 +6,8 @@ scoreboard objectives add zsct.turned.page dummy
 scoreboard objectives add zsct.page dummy
 scoreboard objectives add zsct.ray_steps dummy
 scoreboard objectives add zsct.stats trigger
+scoreboard objectives add zsct.configure_element dummy
+scoreboard objectives add zsct.element_config dummy
 
 ##Init
 schedule function zsct:init 1s
