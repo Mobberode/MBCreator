@@ -2,7 +2,7 @@
 tp @s ^ ^ ^0.5
 
 #Particles for testing
-particle dust{color:[0.0,0.871,0.667],scale:1} ~ ~ ~ 0 0 0 0 1 force @a[tag=zsct.viewcast_on]
+particle dust 0 0.871 0.667 1 ~ ~ ~ 0 0 0 0 1 force @a[tag=zsct.viewcast_on]
 
 ##Element Detection
 execute as @s run function zsct:tools/misc/viewer/viewcast/detect
