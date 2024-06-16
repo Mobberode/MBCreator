@@ -13,14 +13,14 @@ execute if score @s zsct.page matches 7.. run scoreboard players set @s zsct.pag
 execute if score @s zsct.page matches -2 run scoreboard players set @s zsct.page 6
 
 ##Refresh item hotbar
-execute if score @s zsct.page matches 0 as @s run function zsct:tools/givetools/give/give
-execute if score @s zsct.page matches 1 as @s run function zsct:tools/givetools/give/page2
-execute if score @s zsct.page matches 2 as @s run function zsct:tools/givetools/give/page3
-execute if score @s zsct.page matches 3 as @s run function zsct:tools/givetools/give/page4
-execute if score @s zsct.page matches 4 as @s run function zsct:tools/givetools/give/page5
-execute if score @s zsct.page matches 5 as @s run function zsct:tools/givetools/give/mutated1
-execute if score @s zsct.page matches 6 as @s run function zsct:tools/givetools/give/miscpage
-execute if score @s zsct.page matches ..-1 as @s run function zsct:tools/givetools/give/creepersurvival
+execute if score @s zsct.page matches 0 run function zsct:tools/givetools/give/give
+execute if score @s zsct.page matches 1 run function zsct:tools/givetools/give/page2
+execute if score @s zsct.page matches 2 run function zsct:tools/givetools/give/page3
+execute if score @s zsct.page matches 3 run function zsct:tools/givetools/give/page4
+execute if score @s zsct.page matches 4 run function zsct:tools/givetools/give/page5
+execute if score @s zsct.page matches 5 run function zsct:tools/givetools/give/mutated1
+execute if score @s zsct.page matches 6 run function zsct:tools/givetools/give/miscpage
+execute if score @s zsct.page matches ..-1 run function zsct:tools/givetools/give/creepersurvival
 
 ##Loop until zsct.turned.page is 0
-execute unless score @s zsct.turned.page matches 0 as @s run function zsct:tools/misc/page
+execute unless score @s zsct.turned.page matches 0 run function zsct:tools/misc/page

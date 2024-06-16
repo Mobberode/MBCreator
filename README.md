@@ -1,4 +1,4 @@
-# ZSCreator | Beta 5
+# ZSCreator | Release 1.0
 ## Creator Tool used to make custom ZSC and ZS:NB maps
 
 # // Features //

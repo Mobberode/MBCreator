@@ -1,2 +1,3 @@
 ##Raycast
-execute as @s at @s run function zsct:tools/misc/removercast/rayremovecast
+advancement revoke @s only zsct:remover
+execute at @s run function zsct:tools/misc/removercast/rayremovecast

@@ -16,6 +16,6 @@ execute as @e[tag=zs.-y] run kill @s
 execute as @e[tag=zs.-z] run kill @s
 
 #Notify of Removal
-tellraw @a {"text":"[ZSCreator] Legacy Elements removed. If there was any detection. Please put in the new element(s)!","color":"gold","bold":true}
+tellraw @a {"text":"[ZSCreator] Legacy Elements removed. If there was any detection. Please replace them with the new borders!","color":"gold","bold":true}
 
 
