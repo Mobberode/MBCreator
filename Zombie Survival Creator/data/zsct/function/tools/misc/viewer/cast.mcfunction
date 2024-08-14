@@ -1,5 +1,5 @@
 ##Summon
-summon area_effect_cloud ~ ~ ~ {Tags:[EViewRay]}
+summon marker ~ ~ ~ {Tags:[EViewRay]}
 #TP
 execute anchored eyes rotated as @s run tp @e[tag=EViewRay,sort=nearest,limit=1] ^ ^-0.25 ^ ~ ~
 ##Process

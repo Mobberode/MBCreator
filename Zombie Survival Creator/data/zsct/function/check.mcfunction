@@ -11,7 +11,7 @@ execute as @a[scores={zs.coas=1..}] at @s run function zsct:tools/misc/menu
 ##Elements
 execute as @e[type=bat,tag=!] at @s run function zsct:elements
 #Particles
-execute as @e[type=area_effect_cloud,tag=!] at @s run function zsct:visuals
+execute as @e[type=marker,tag=zsct.element] at @s run function zsct:visuals
 
 ##Reset Age
 execute as @e[tag=zsct.element] run data modify entity @s Age set value 0
