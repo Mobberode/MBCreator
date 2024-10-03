@@ -1,2 +1,2 @@
-say Element Removed!
-kill @e[tag=zsct.element,distance=0..1,limit=1]
+tellraw @a {"text":"Element Removed!","color":"red"}
+kill @s

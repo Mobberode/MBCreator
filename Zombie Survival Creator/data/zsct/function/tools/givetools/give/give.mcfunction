@@ -1,26 +1,20 @@
 ##Announce
 tellraw @s {"text":"ZSCreator Elements Page 1!"}
 
-##Remove
-item replace entity @p hotbar.8 with barrier[food={saturation:0,nutrition:0,eat_seconds:32000,can_always_eat:true},minecraft:custom_data={"zsct.remover":true},minecraft:custom_name='{"text":"Element Remover <Aim and Interact to use!>","color":"dark_red","bold":true,"italic":false}']
-
-##Menu Rod
-item replace entity @p hotbar.0 with carrot_on_a_stick[minecraft:custom_name='{"text":"Menu <Interact to access Menu!>","color":"gold","bold":true,"italic":false}']
-
 ##Player
 #Player Spawn
-item replace entity @p hotbar.1 with bat_spawn_egg[custom_name='{"text":"Player Spawn","color":"gold","bold":true,"italic":false}',entity_data={id:"minecraft:bat",NoGravity:1b,Silent:1b,NoAI:1b,Tags:["zs.plrspawn"]}]
+item replace entity @p hotbar.1 with bat_spawn_egg[custom_name='{"text":"Player Spawn","color":"gold","bold":true,"italic":false}',entity_data={id:"minecraft:marker",Tags:["zs.plrspawn","zsct.element"]}]
 
 ##Mobs
 #Zombie
-item replace entity @p hotbar.2 with zombie_spawn_egg[custom_name='{"text":"Zombie Spawn","color":"#0DC900","bold":true,"italic":false}',entity_data={id:"minecraft:bat",NoGravity:1b,Silent:1b,NoAI:1b,Tags:["zs.zombiespawn"]}]
+item replace entity @p hotbar.2 with zombie_spawn_egg[custom_name='{"text":"Zombie Spawn","color":"#0DC900","bold":true,"italic":false}',entity_data={id:"minecraft:marker",Tags:["zs.zombiespawn","zsct.element"]}]
 #Skeleton
-item replace entity @p hotbar.3 with skeleton_spawn_egg[custom_name='{"text":"Skeleton Spawn","color":"#6B6B6B","bold":true,"italic":false}',entity_data={id:"minecraft:bat",NoGravity:1b,Silent:1b,NoAI:1b,Tags:["zs.skeletonspawn"]}]
+item replace entity @p hotbar.3 with skeleton_spawn_egg[custom_name='{"text":"Skeleton Spawn","color":"#6B6B6B","bold":true,"italic":false}',entity_data={id:"minecraft:marker",Tags:["zs.skeletonspawn","zsct.element"]}]
 #Spider
-item replace entity @p hotbar.4 with spider_spawn_egg[custom_name='{"text":"Spider Spawn","color":"#701414","bold":true,"italic":false}',entity_data={id:"minecraft:bat",NoGravity:1b,Silent:1b,NoAI:1b,Tags:["zs.spiderspawn"]}]
+item replace entity @p hotbar.4 with spider_spawn_egg[custom_name='{"text":"Spider Spawn","color":"#701414","bold":true,"italic":false}',entity_data={id:"minecraft:marker",Tags:["zs.spiderspawn","zsct.element"]}]
 #Wither Skeleton
-item replace entity @p hotbar.5 with wither_skeleton_spawn_egg[custom_name='{"text":"Wither Skeleton Spawn","color":"#0F0F0F","bold":true,"italic":false}',entity_data={id:"minecraft:bat",NoGravity:1b,Silent:1b,NoAI:1b,Tags:["zs.wither.skeletonspawn"]}]
+item replace entity @p hotbar.5 with wither_skeleton_spawn_egg[custom_name='{"text":"Wither Skeleton Spawn","color":"#0F0F0F","bold":true,"italic":false}',entity_data={id:"minecraft:marker",Tags:["zs.wither.skeletonspawn","zsct.element"]}]
 #Pillager
-item replace entity @p hotbar.6 with pillager_spawn_egg[custom_name='{"text":"Pillager Spawn","color":"#2C284A","bold":true,"italic":false}',entity_data={id:"minecraft:bat",NoGravity:1b,Silent:1b,NoAI:1b,Tags:["zs.pillagerspawn"]}]
+item replace entity @p hotbar.6 with pillager_spawn_egg[custom_name='{"text":"Pillager Spawn","color":"#2C284A","bold":true,"italic":false}',entity_data={id:"minecraft:marker",Tags:["zs.pillagerspawn","zsct.element"]}]
 #Witch
-item replace entity @p hotbar.7 with witch_spawn_egg[custom_name='{"text":"Witch Spawn","color":"#7B2EA6","bold":true,"italic":false}',entity_data={id:"minecraft:bat",NoGravity:1b,Silent:1b,NoAI:1b,Tags:["zs.witchspawn"]}]
+item replace entity @p hotbar.7 with witch_spawn_egg[custom_name='{"text":"Witch Spawn","color":"#7B2EA6","bold":true,"italic":false}',entity_data={id:"minecraft:marker",Tags:["zs.witchspawn","zsct.element"]}]

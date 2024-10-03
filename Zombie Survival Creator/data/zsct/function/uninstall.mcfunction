@@ -1,5 +1,4 @@
 schedule clear zsct:check
-schedule clear zsct:legacychec
 schedule clear zsct:tools/misc/page 
 scoreboard objectives remove zsct.turned.page
 scoreboard objectives remove zsct.page
@@ -13,10 +12,7 @@ scoreboard objectives remove zs.global.map.override
 scoreboard objectives remove zs.global.map.mob.enabled 
 scoreboard objectives remove zs.global.map.mob.wave 
 scoreboard objectives remove zs.zsc.map.setting
-scoreboard objectives remove zsct.stronghold.present.turned.page
-scoreboard objectives remove zsct.holding.remover
 scoreboard objectives remove zsct.ray_steps
-scoreboard objectives remove zsct.init_menu
 scoreboard objectives remove zs.coas
 scoreboard objectives remove zs.game.status 
 scoreboard objectives remove zs.timer 

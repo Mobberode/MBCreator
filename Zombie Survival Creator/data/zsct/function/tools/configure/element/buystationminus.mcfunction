@@ -1,3 +1,2 @@
-tag @e[tag=zsct.element,distance=0..1,tag=zsct.configurable,tag=zs.-buystation] add zsct.being_configured
-function zsct:tools/configure/element/menu/buystationminus
-scoreboard players set @s zsct.configure_element 0
+tag @s add zsct.being_configured
+execute as @a[scores={zsct.configure_element=2}] run function zsct:tools/configure/element/menu/buystationminus

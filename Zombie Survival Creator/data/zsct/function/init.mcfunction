@@ -5,9 +5,6 @@ scoreboard players set @a zsct.page 0
 ##Run Check
 schedule function zsct:check 1s
 
-##Run Legacy Check
-schedule function zsct:legacycheck 1s
-
 ##Give Tools
 execute as @a run function zsct:tools/misc/page
 

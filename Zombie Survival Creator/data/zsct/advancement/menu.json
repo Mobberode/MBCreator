@@ -5,12 +5,12 @@
         "conditions": {
           "item": {
             "predicates": {
-              "minecraft:custom_data": {"zsct.action":"remove"}
+              "minecraft:custom_data": {"zsct.action":"menu"}
             }
           }
         }
       }
     },
-    "rewards": {"function": "zsct:tools/misc/remove"}
+    "rewards": {"function": "zsct:tools/misc/menu"}
   }
   

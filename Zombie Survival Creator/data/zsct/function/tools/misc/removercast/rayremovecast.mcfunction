@@ -1,6 +1,4 @@
 ##Summon
 summon marker ~ ~ ~ {Tags:[ERemoveRay],CustomName:'{"text":"Element Remover","color": "red"}'}
-#TP
-execute anchored eyes rotated as @s run tp @e[tag=ERemoveRay,sort=nearest,limit=1] ^ ^-0.25 ^ ~ ~
 ##Process
-execute as @e[tag=ERemoveRay,limit=1,sort=nearest] run function zsct:tools/misc/removercast/removerayprocess
+execute as @e[distance=0..1,limit=1,tag=ERemoveRay] run function zsct:tools/misc/removercast/removerayprocess

@@ -1,6 +1,4 @@
 ##Summon
 summon marker ~ ~ ~ {Tags:[EViewRay]}
-#TP
-execute anchored eyes rotated as @s run tp @e[tag=EViewRay,sort=nearest,limit=1] ^ ^-0.25 ^ ~ ~
 ##Process
-execute as @e[tag=EViewRay,limit=1,sort=nearest] run function zsct:tools/misc/viewer/viewcast/process
+execute as @e[distance=0..1,limit=1,tag=EViewRay] run function zsct:tools/misc/viewer/viewcast/process
