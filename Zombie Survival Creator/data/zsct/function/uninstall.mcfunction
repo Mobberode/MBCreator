@@ -1,6 +1,5 @@
 schedule clear zsct:check
 schedule clear zsct:tools/misc/page 
-scoreboard objectives remove zsct.turned.page
 scoreboard objectives remove zsct.page
 schedule clear zsct:init
 scoreboard objectives remove zs.x

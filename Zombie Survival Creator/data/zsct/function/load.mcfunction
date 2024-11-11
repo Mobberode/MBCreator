@@ -2,7 +2,6 @@
 tellraw @a {"text":"Welcome to Zombie Survival Creator Tools!"}
 
 ##1 Time Install
-scoreboard objectives add zsct.turned.page dummy
 scoreboard objectives add zsct.page dummy
 scoreboard objectives add zsct.ray_steps dummy
 scoreboard objectives add zsct.stats trigger
@@ -43,4 +42,5 @@ scoreboard objectives add zs.zsc.map.setting dummy
 #ZSM Map Configs
 #scoreboard objectives add zs.zsm.map.setting
 
-
+##Data-Driven Pages
+function zsct:load_pages

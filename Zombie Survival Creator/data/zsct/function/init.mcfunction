@@ -5,8 +5,8 @@ scoreboard players set @a zsct.page 0
 ##Run Check
 schedule function zsct:check 1s
 
-##Give Tools
-execute as @a run function zsct:tools/misc/page
+##Init tools
+execute as @a run function zsct:tools/misc/intro
 
 ##Loop
 execute unless entity @a run schedule function zsct:init 1t

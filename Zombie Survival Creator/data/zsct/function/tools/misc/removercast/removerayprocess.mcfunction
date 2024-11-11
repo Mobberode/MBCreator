@@ -1,5 +1,5 @@
 #TP
-tp @s ~ ~1.25 ~ ~ ~
+tp @s ~ ~ ~ ~ ~
 
 ##Steps
 scoreboard players set @s zsct.ray_steps 64
