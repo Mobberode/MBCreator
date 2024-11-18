@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": {"mbc.action":"menu"}
+            }
+          }
+        }
+      }
+    },
+    "rewards": {"function": "mbc:tools/misc/menu"}
+  }
+  

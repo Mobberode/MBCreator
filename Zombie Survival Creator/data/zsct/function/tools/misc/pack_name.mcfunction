@@ -1,1 +1,0 @@
-$tellraw @s [{"text":"Pack: ["},{"text":"$(pack_name)","color":"green"},{"text":"]"}]

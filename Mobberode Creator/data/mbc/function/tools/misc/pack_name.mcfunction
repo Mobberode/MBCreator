@@ -1,0 +1,1 @@
+$tellraw @s [{"text":"Pack: "},{"text":"[","color":"green"},{"text":"$(pack_name)","color":"gray"},{"text":"]","color":"green"},{"text":"\nPage "},{"score":{"name":"@s","objective":"mbc.page"},"color":"green"},{"text":" out of "},{"score":{"name":"#Total","objective":"mbc.page"},"color":"red"},{"text":" Pack(s)"}]

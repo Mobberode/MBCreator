@@ -1,0 +1,1 @@
+execute as @e[tag=mbc.element] run function mbc:stats
