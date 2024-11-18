@@ -1,4 +1,4 @@
-# MBCreator | Release 1.1
+# MBCreator
 Creator Tool used to make custom ZSC and ZS:NB + Mobberode Mutated maps
 
 ## Features
