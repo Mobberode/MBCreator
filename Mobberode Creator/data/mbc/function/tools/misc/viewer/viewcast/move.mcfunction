@@ -11,4 +11,4 @@ function mbc:tools/misc/viewer/viewcast/detect
 scoreboard players remove @s mbc.ray_steps 1
 
 #Loop
-execute unless score #Stop mbc.condition matches 1 positioned ^ ^ ^0.5 run function mbc:tools/misc/viewer/viewcast/move
+execute unless score #Stop mbc.condition matches 1 unless score @s mbc.ray_steps matches ..0 positioned ^ ^ ^0.5 run function mbc:tools/misc/viewer/viewcast/move
