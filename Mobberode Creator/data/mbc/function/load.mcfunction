@@ -1,5 +1,5 @@
 ##Notify
-tellraw @a {"text":"Welcome to Mobberode Creator Tools!"}
+tellraw @a {text:"Welcome to Mobberode Creator Tools!"}
 
 ##1 Time Install
 scoreboard objectives add mbc.page dummy

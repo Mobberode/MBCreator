@@ -1,90 +1,92 @@
 execute as @a[distance=0..6,scores={mbc.configure_element=1..}] run function mbc:tools/configure/check
-
 ##Border Elements
-execute if entity @s[tag=zs.+border] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Positive Border"}
-execute if entity @s[tag=zs.-border] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Negative Border"}
+execute if entity @s[tag=zs.+border] run return run data modify storage mbcreator.temp element set value {text:"Positive Border"}
+execute if entity @s[tag=zs.-border] run return run data modify storage mbcreator.temp element set value {text:"Negative Border"}
 
 ##Player Spawn
-execute if entity @s[tag=zs.plrspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Player Spawn"}
+execute if entity @s[tag=zs.plrspawn] run return run data modify storage mbcreator.temp element set value {text:"Player Spawn"}
 
 ##Mutated Elements
-execute if entity @s[tag=zs.+buystation] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: + Buy Station Border Line [Can be Configured]"}
-execute if entity @s[tag=zs.-buystation] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: - Buy Station Border Line [Can be Configured]"}
+execute if entity @s[tag=zs.+buystation] run return run data modify storage mbcreator.temp element set value {text:"+ Buy Station Border Line [Can be Configured]"}
+execute if entity @s[tag=zs.-buystation] run return run data modify storage mbcreator.temp element set value {text:"- Buy Station Border Line [Can be Configured]"}
 
 ##Mob Spawns
 #Zombie 1
-execute if entity @s[tag=zs.zombiespawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Zombie Spawn"}
+execute if entity @s[tag=zs.zombiespawn] run return run data modify storage mbcreator.temp element set value {text:"Zombie Spawn"}
 #Skeleton 1
-execute if entity @s[tag=zs.skeletonspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Skeleton Spawn"}
+execute if entity @s[tag=zs.skeletonspawn] run return run data modify storage mbcreator.temp element set value {text:"Skeleton Spawn"}
 #Spider 1
-execute if entity @s[tag=zs.spiderspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Spider Spawn"}
+execute if entity @s[tag=zs.spiderspawn] run return run data modify storage mbcreator.temp element set value {text:"Spider Spawn"}
 #Wither Skeleton 1
-execute if entity @s[tag=zs.wither.skeletonspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Wither Skeleton Spawn"}
+execute if entity @s[tag=zs.wither.skeletonspawn] run return run data modify storage mbcreator.temp element set value {text:"Wither Skeleton Spawn"}
 #Pillager 1
-execute if entity @s[tag=zs.pillagerspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Pillager Spawn"}
+execute if entity @s[tag=zs.pillagerspawn] run return run data modify storage mbcreator.temp element set value {text:"Pillager Spawn"}
 #Witch 1
-execute if entity @s[tag=zs.witchspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Witch Spawn"} 
+execute if entity @s[tag=zs.witchspawn] run return run data modify storage mbcreator.temp element set value {text:"Witch Spawn"} 
 
 #Husk 2
-execute if entity @s[tag=zs.huskspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Husk Spawn"}
+execute if entity @s[tag=zs.huskspawn] run return run data modify storage mbcreator.temp element set value {text:"Husk Spawn"}
 #Stray 2
-execute if entity @s[tag=zs.strayspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Stray Spawn"} 
+execute if entity @s[tag=zs.strayspawn] run return run data modify storage mbcreator.temp element set value {text:"Stray Spawn"} 
 #Enderman 2
-execute if entity @s[tag=zs.endermanspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Enderman Spawn"}
+execute if entity @s[tag=zs.endermanspawn] run return run data modify storage mbcreator.temp element set value {text:"Enderman Spawn"}
 #Silverfish 2
-execute if entity @s[tag=zs.silverfishspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Silver Fish Spawn"}
+execute if entity @s[tag=zs.silverfishspawn] run return run data modify storage mbcreator.temp element set value {text:"Silver Fish Spawn"}
 #Cave Spider 2
-execute if entity @s[tag=zs.cave.spiderspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Cave Spider Spawn"}
+execute if entity @s[tag=zs.cave.spiderspawn] run return run data modify storage mbcreator.temp element set value {text:"Cave Spider Spawn"}
 #Blaze 2
-execute if entity @s[tag=zs.blazespawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Blaze Spawn"} 
+execute if entity @s[tag=zs.blazespawn] run return run data modify storage mbcreator.temp element set value {text:"Blaze Spawn"} 
 #Creeper 2
-execute if entity @s[tag=zs.creeperspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Creeper Spawn"}
+execute if entity @s[tag=zs.creeperspawn] run return run data modify storage mbcreator.temp element set value {text:"Creeper Spawn"}
 
 #Ghast 3
-execute if entity @s[tag=zs.ghastspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Ghast Spawn"} 
+execute if entity @s[tag=zs.ghastspawn] run return run data modify storage mbcreator.temp element set value {text:"Ghast Spawn"} 
 #Endermite 3
-execute if entity @s[tag=zs.endermitespawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Endermite Spawn"}
+execute if entity @s[tag=zs.endermitespawn] run return run data modify storage mbcreator.temp element set value {text:"Endermite Spawn"}
 #Slime 3
-execute if entity @s[tag=zs.slimespawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Slime Spawn"} 
+execute if entity @s[tag=zs.slimespawn] run return run data modify storage mbcreator.temp element set value {text:"Slime Spawn"} 
 #Vindicator 3
-execute if entity @s[tag=zs.vindicatorspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Vindicator Spawn"}
+execute if entity @s[tag=zs.vindicatorspawn] run return run data modify storage mbcreator.temp element set value {text:"Vindicator Spawn"}
 #Charged Creeper 3
-execute if entity @s[tag=zs.charged.creeperspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Charged Creeper Spawn"}
+execute if entity @s[tag=zs.charged.creeperspawn] run return run data modify storage mbcreator.temp element set value {text:"Charged Creeper Spawn"}
 #Evoker 3
-execute if entity @s[tag=zs.evokerspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Evoker Spawn"}
+execute if entity @s[tag=zs.evokerspawn] run return run data modify storage mbcreator.temp element set value {text:"Evoker Spawn"}
 #Piglin Brute 3
-execute if entity @s[tag=zs.piglin.brutespawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Piglin Brute Spawn"}
+execute if entity @s[tag=zs.piglin.brutespawn] run return run data modify storage mbcreator.temp element set value {text:"Piglin Brute Spawn"}
 
 #Shulker 4
-execute if entity @s[tag=zs.shulkerspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Shulker Spawn"}
+execute if entity @s[tag=zs.shulkerspawn] run return run data modify storage mbcreator.temp element set value {text:"Shulker Spawn"}
 #Ravager 4
-execute if entity @s[tag=zs.ravagerspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Ravager Spawn"}
+execute if entity @s[tag=zs.ravagerspawn] run return run data modify storage mbcreator.temp element set value {text:"Ravager Spawn"}
 #Magma Cube 4
-execute if entity @s[tag=zs.magma.cubespawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Magma Cube Spawn"}
+execute if entity @s[tag=zs.magma.cubespawn] run return run data modify storage mbcreator.temp element set value {text:"Magma Cube Spawn"}
 
 ## Specialised Mobs
 #Piglin 4
-execute if entity @s[tag=zs.piglinspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Piglin Spawn"}
+execute if entity @s[tag=zs.piglinspawn] run return run data modify storage mbcreator.temp element set value {text:"Piglin Spawn"}
 #Iron Golem 4
-execute if entity @s[tag=zs.iron.golemspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Iron Golem Spawn"}
+execute if entity @s[tag=zs.iron.golemspawn] run return run data modify storage mbcreator.temp element set value {text:"Iron Golem Spawn"}
 #Snow Golem 4
-execute if entity @s[tag=zs.snow.golemspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Snow Golem Spawn"}
+execute if entity @s[tag=zs.snow.golemspawn] run return run data modify storage mbcreator.temp element set value {text:"Snow Golem Spawn"}
 #Hoglin 4
-execute if entity @s[tag=zs.hoglinspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Hoglin Spawn"}
+execute if entity @s[tag=zs.hoglinspawn] run return run data modify storage mbcreator.temp element set value {text:"Hoglin Spawn"}
 
 #Warden 5
-execute if entity @s[tag=zs.wardenspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Warden Spawn"}
+execute if entity @s[tag=zs.wardenspawn] run return run data modify storage mbcreator.temp element set value {text:"Warden Spawn"}
 #Ender Dragon 5
-execute if entity @s[tag=zs.ender.dragonspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Ender Dragon Spawn"}
+execute if entity @s[tag=zs.ender.dragonspawn] run return run data modify storage mbcreator.temp element set value {text:"Ender Dragon Spawn"}
 #Wither 5
-execute if entity @s[tag=zs.witherspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Wither Spawn"}
+execute if entity @s[tag=zs.witherspawn] run return run data modify storage mbcreator.temp element set value {text:"Wither Spawn"}
 
 ##(Creeper Survival Mode Bonus Mode 1 Specfic) -1
 #Fast
-execute if entity @s[tag=zcs.fastcreeperspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Fast Creeper Spawn"}
+execute if entity @s[tag=zcs.fastcreeperspawn] run return run data modify storage mbcreator.temp element set value {text:"Fast Creeper Spawn"}
 #Fast Charged
-execute if entity @s[tag=zcs.fastchargedcreeperspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Fast Charged Creeper Spawn"}
+execute if entity @s[tag=zcs.fastchargedcreeperspawn] run return run data modify storage mbcreator.temp element set value {text:"Fast Charged Creeper Spawn"}
 #Heavy
-execute if entity @s[tag=zcs.heavycreeperspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Heavy Creeper Spawn"} 
+execute if entity @s[tag=zcs.heavycreeperspawn] run return run data modify storage mbcreator.temp element set value {text:"Heavy Creeper Spawn"} 
 #Fast Heavy
-execute if entity @s[tag=zcs.fastheavycreeperspawn] run return run title @a[limit=1,sort=nearest] actionbar {"text": "Element: Fast Heavy Creeper Spawn"}
+execute if entity @s[tag=zcs.fastheavycreeperspawn] run return run data modify storage mbcreator.temp element set value {text:"Fast Heavy Creeper Spawn"}
+
+##Custom
+function #mbc:view
