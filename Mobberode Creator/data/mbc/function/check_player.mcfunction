@@ -1,4 +1,5 @@
 ##Element Viewer
+scoreboard players enable @s mbc.configure_element
 function mbc:tools/misc/viewer/cast
 
 ##Stats Check

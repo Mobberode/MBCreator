@@ -1,0 +1,2 @@
+particle item{item:{id:"porkchop"}} ~ ~ ~ 0 0.1 0 0.05 20 normal @a[tag=!mbc.eparticles_disabled]
+particle item{item:{id:"crimson_fungus"}} ~ ~ ~ 0 0.1 0 0.05 20 normal @a[tag=!mbc.eparticles_disabled]

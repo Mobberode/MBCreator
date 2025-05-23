@@ -5,7 +5,7 @@ tellraw @a {text:"Welcome to Mobberode Creator Tools!"}
 scoreboard objectives add mbc.page dummy
 scoreboard objectives add mbc.ray_steps dummy
 scoreboard objectives add mbc.stats trigger
-scoreboard objectives add mbc.configure_element dummy
+scoreboard objectives add mbc.configure_element trigger
 scoreboard objectives add mbc.element_config dummy
 scoreboard objectives add mbc.condition dummy
 

@@ -1,2 +1,2 @@
 advancement revoke @s only mbc:menu
-tellraw @s [{text:"[Map Configurations]",color:gold,click_event:{action:"run_command",command:"/function mbc:mapconfig/menu"}},{text:"\n[Configure Viewed Element]",color:gold,click_event: {action:"run_command",command:"/scoreboard players set @s mbc.configure_element 1"}}]
+tellraw @s [{text:"[Map Configurations]",color:gold,click_event:{action:"run_command",command:"/function mbc:mapconfig/menu"}},{text:"\n[Configure Viewed Element]",color:gold,click_event: {action:"run_command",command:"/trigger mbc.configure_element"}}]
