@@ -10,6 +10,7 @@ scoreboard objectives add mbc.element_config dummy
 scoreboard objectives add mbc.condition dummy
 
 ##Init
+function gu:zzz/load
 schedule function mbc:init 1s
 
 ##Lay Base Foundation for Mobberode Creator as a whole

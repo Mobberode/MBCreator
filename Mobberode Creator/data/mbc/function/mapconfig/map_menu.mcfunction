@@ -1,1 +1,0 @@
-tellraw @s [{text:"MBCreator Map Configurations",color:yellow},{text:"\n[Map Statistics]",color:gold,click_event:{action:run_command,command:"/trigger mbc.stats set 1"}},{text:"\n\n[ <-- ]",color:gold,click_event:{action:run_command,command:"/function mbc:mapconfig/menu"}},{text:"\n// MBCreator Release 1.0 //",color:gray}]

@@ -1,0 +1,8 @@
+{
+    "type": "multi_action",
+    "title": "Mobberode Creator",
+    "body": [{"type":"plain_message","contents":{"text":"Release 1.1"}}],
+    "actions": [{"label":{"text":"Map Configurations"},"action":{"type":"show_dialog","dialog":"mbc:map"}},
+    {"label":{"text":"Configure Viewed Element"},"action":{"type":"run_command","command":"/trigger mbc.configure_element"}},
+    {"label":{"text":"Client Options"},"action":{"type":"run_command","command":"/function mbc:mapconfig/playermenu/menu"}}]
+}

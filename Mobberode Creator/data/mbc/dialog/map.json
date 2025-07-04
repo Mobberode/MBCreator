@@ -1,0 +1,6 @@
+{
+    "type": "multi_action",
+    "title": "Mobberode Creator",
+    "exit_action":{"label":"Back","action":{"type":"show_dialog","dialog":"mbc:menu"}},
+    "actions": [{"label":{"text":"Map Statistics"},"action":{"type":"run_command","command":"/trigger mbc.stats set 1"}}]
+}
