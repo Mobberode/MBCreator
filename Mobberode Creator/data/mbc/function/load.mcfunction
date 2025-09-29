@@ -1,5 +1,5 @@
 ##Notify
-tellraw @a {text:"Welcome to Mobberode Creator Tools!"}
+tellraw @a {text:"Welcome to Mobberode Creator Tools!",color:yellow}
 
 ##1 Time Install
 scoreboard objectives add mbc.page dummy
@@ -32,17 +32,6 @@ scoreboard objectives add zs.y dummy
 scoreboard objectives add zs.z dummy
 #Map Gamerule Prompt
 scoreboard objectives add mbc.prompt.gamerules dummy
-#Toggleable Custom Map Changes
-scoreboard objectives add zs.global.map.allow.changes dummy
-#Map Configs
-scoreboard objectives add zs.global.map.override dummy
-#Moblist Configs
-scoreboard objectives add zs.global.map.mob.enabled dummy
-scoreboard objectives add zs.global.map.mob.wave dummy
-#ZSC Map Configs
-scoreboard objectives add zs.zsc.map.setting dummy
-#ZSM Map Configs
-#scoreboard objectives add zs.zsm.map.setting
 
 ##Data-Driven Pages
 function mbc:load_pages

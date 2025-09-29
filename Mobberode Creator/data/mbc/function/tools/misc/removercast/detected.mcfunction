@@ -1,2 +1,2 @@
-tellraw @a {text:"Element Removed!",color:red}
-kill @s
+tellraw @a [{selector:"@s"},{text:" Removed!",color:red}]
+kill

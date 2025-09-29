@@ -11,4 +11,4 @@ data modify storage mbcreator.temp existing_data set from entity @s data.mbc
 
 execute as @a[scores={mbc.configure_element=1..}] run function mbc:tools/configure/dialog with storage mbcreator.temp
 
-#function #mbc:element_configures
+function #mbc:element_configures

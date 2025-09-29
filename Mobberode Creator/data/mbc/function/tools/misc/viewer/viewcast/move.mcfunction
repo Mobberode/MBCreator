@@ -2,7 +2,7 @@
 tp ~ ~ ~
 
 #Particles for testing
-particle dust{color:[0.0,0.871,0.667],scale:1} ~ ~ ~ 0 0 0 0 1 force @a[tag=mbc.viewcast_on]
+particle dust{color:[0.0,0.871,0.667],scale:0.25} ~ ~ ~ 0 0 0 0 1 force @a[tag=mbc.viewcast_on]
 
 ##Element Detection
 function mbc:tools/misc/viewer/viewcast/detect
