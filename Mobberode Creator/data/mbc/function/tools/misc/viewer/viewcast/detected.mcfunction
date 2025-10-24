@@ -1,4 +1,4 @@
-execute if score #State mbc.configure_element matches 1.. if entity @s[tag=mbc.configurable] run function mbc:tools/configure/check
+execute if score #State mbc.configure_element matches 1.. run function mbc:tools/configure/check
 ##Border Elements
 execute if entity @s[tag=zs.+border] run return run data modify storage mbcreator.temp element set value {text:"Positive Border"}
 execute if entity @s[tag=zs.-border] run return run data modify storage mbcreator.temp element set value {text:"Negative Border"}
@@ -7,8 +7,8 @@ execute if entity @s[tag=zs.-border] run return run data modify storage mbcreato
 execute if entity @s[tag=zs.plrspawn] run return run data modify storage mbcreator.temp element set value {text:"Player Spawn"}
 
 ##Mutated Elements
-execute if entity @s[tag=zs.+buystation] run return run data modify storage mbcreator.temp element set value {text:"+ Buy Station Border Line [Can be Configured]"}
-execute if entity @s[tag=zs.-buystation] run return run data modify storage mbcreator.temp element set value {text:"- Buy Station Border Line [Can be Configured]"}
+execute if entity @s[tag=zs.+buystation] run return run data modify storage mbcreator.temp element set value {text:"+ Buy Station Border Line"}
+execute if entity @s[tag=zs.-buystation] run return run data modify storage mbcreator.temp element set value {text:"- Buy Station Border Line"}
 
 ##Mob Spawns
 #Zombie 1

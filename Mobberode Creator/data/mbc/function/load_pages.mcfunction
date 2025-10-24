@@ -69,8 +69,8 @@ data modify storage mbcreator pages set value \
     },\
     {pack_name:"MBCreator Base Pack 1 | Mutated Legacy (ZSC)",\
         entries:[\
-            {slot:hotbar.1,item:'enderman_spawn_egg[custom_name={text:"+ Buy Station Border Line",color:green,bold:true,italic:false},entity_data={id:"marker",Tags:["zs.+buystation","mbc.element","mbc.configurable"]}]'},\
-            {slot:hotbar.2,item:'creeper_spawn_egg[custom_name={text:"- Buy Station Border Line",color:red,bold:true,italic:false},entity_data={id:"marker",Tags:["zs.-buystation","mbc.element","mbc.configurable"]}]'}\
+            {slot:hotbar.1,item:'enderman_spawn_egg[custom_name={text:"+ Buy Station Border Line",color:green,bold:true,italic:false},entity_data={id:"marker",Tags:["zs.+buystation","mbc.element"]}]'},\
+            {slot:hotbar.2,item:'creeper_spawn_egg[custom_name={text:"- Buy Station Border Line",color:red,bold:true,italic:false},entity_data={id:"marker",Tags:["zs.-buystation","mbc.element"]}]'}\
         ]\
 }\
 ]}
