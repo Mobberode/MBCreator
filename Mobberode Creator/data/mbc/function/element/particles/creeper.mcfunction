@@ -1,0 +1,1 @@
+particle explosion ~ ~ ~ 0 0.1 0 0 1 force @a[tag=!mbc.eparticles_disabled]

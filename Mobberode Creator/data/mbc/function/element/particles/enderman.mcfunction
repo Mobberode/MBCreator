@@ -1,0 +1,1 @@
+particle end_rod ~ ~ ~ 0 0.1 0 0.025 5 force @a[tag=!mbc.eparticles_disabled]

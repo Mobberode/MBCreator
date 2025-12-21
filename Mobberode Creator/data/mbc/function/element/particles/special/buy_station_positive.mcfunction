@@ -1,0 +1,1 @@
+particle glow ~ ~ ~ 0.01 0.5 0.01 0 5 force @a[tag=!mbc.eparticles_disabled]

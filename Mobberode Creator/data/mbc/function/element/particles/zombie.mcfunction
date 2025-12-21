@@ -1,0 +1,1 @@
+particle item{item:{id:"rotten_flesh"}} ~ ~ ~ 0.2 0.1 0.2 0 10 force @a[tag=!mbc.eparticles_disabled]

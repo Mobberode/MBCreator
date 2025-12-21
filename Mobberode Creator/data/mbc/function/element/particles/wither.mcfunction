@@ -1,0 +1,1 @@
+particle item{item:{id:"wither_rose"}} ~ ~ ~ 0 0.1 0 0.075 25 force @a[tag=!mbc.eparticles_disabled]

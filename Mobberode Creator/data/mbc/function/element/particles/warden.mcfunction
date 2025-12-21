@@ -1,0 +1,1 @@
+particle sonic_boom ~ ~ ~ 0 0.1 0 0.25 1 force @a[tag=!mbc.eparticles_disabled]

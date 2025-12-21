@@ -1,0 +1,1 @@
+particle glow_squid_ink ~ ~ ~ 0.2 0.1 0.2 0 2 force @a[tag=!mbc.eparticles_disabled]

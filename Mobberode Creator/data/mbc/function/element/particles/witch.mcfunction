@@ -1,0 +1,1 @@
+particle witch ~ ~ ~ 0.2 0.1 0.2 0 5 force @a[tag=!mbc.eparticles_disabled]

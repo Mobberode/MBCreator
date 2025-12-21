@@ -1,0 +1,1 @@
+particle flame ~ ~ ~ 0 0.65 0.1 0.025 5 force @a[tag=!mbc.eparticles_disabled]

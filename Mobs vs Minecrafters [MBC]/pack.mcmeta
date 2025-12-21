@@ -1,6 +1,7 @@
 {
     "pack": {
-        "pack_format": 63,
+        "min_format": 94,
+        "max_format": 94,
         "description": "Map-Making Tools from JackieT's Mobs vs Minecrafters, now ported to Mobberode Creator!"
     }
 }

@@ -1,0 +1,1 @@
+particle reverse_portal ~ ~ ~ 0 0.5 0 0.025 10 force @a[tag=!mbc.eparticles_disabled]

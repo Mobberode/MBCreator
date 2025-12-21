@@ -1,0 +1,1 @@
+particle dust{color:16771584,scale:1.25} ~ ~ ~ 0 0.1 0 0 20 force @a[tag=!mbc.eparticles_disabled]

@@ -1,0 +1,1 @@
+particle item{item:{id:"cobweb"}} ~ ~ ~ 0.15 0.1 0.15 0 20 force @a[tag=!mbc.eparticles_disabled]

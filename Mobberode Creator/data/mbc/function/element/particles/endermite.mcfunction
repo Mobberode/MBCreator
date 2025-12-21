@@ -1,0 +1,1 @@
+particle portal ~ ~ ~ 0 0.1 0 0.5 20 force @a[tag=!mbc.eparticles_disabled]

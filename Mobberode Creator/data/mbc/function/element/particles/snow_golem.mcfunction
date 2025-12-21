@@ -1,0 +1,1 @@
+particle snowflake ~ ~ ~ 0 0.1 0 0.05 10 force @a[tag=!mbc.eparticles_disabled]

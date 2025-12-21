@@ -1,0 +1,1 @@
+particle crimson_spore ~ ~ ~ 0 0.1 0 0 40 force @a[tag=!mbc.eparticles_disabled]

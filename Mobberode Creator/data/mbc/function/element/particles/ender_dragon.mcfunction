@@ -1,0 +1,1 @@
+particle dragon_breath ~ ~ ~ 0 0.1 0 0.01 15 force @a[tag=!mbc.eparticles_disabled]

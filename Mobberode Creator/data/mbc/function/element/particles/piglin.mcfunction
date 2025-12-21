@@ -1,0 +1,1 @@
+particle item{item:{id:"gold_ingot"}} ~ ~ ~ 0 0.1 0 0.05 20 force @a[tag=!mbc.eparticles_disabled]
