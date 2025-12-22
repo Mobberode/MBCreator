@@ -4,7 +4,7 @@ function mbc:tools/misc/viewer/cast
 
 ##Stats Check
 scoreboard players enable @s mbc.stats
-execute if score @s mbc.stats matches 1.. run function mbc:stats_init
+execute if score @s mbc.stats matches 1.. run function mbc:stats/init
 
 ##Item check
 execute if items entity @s weapon.offhand *[custom_data={"mbc.action":prev}] run function mbc:tools/misc/pages/remove
