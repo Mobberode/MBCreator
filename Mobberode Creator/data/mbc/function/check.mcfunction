@@ -5,4 +5,4 @@ execute as @a at @s run function mbc:check_player
 execute as @e[type=marker,tag=mbc.element] at @s run function mbc:element_tick
 
 ##Loop
-schedule function mbc:check 2t
+schedule function mbc:check 1t
