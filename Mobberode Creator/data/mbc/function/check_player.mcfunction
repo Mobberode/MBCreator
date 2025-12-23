@@ -6,6 +6,10 @@ function mbc:tools/misc/viewer/cast
 scoreboard players enable @s mbc.stats
 execute if score @s mbc.stats matches 1.. run function mbc:stats/init
 
+##Autosave
+scoreboard players enable @s mbc.load_autosave
+execute if score @s mbc.load_autosave matches 1.. run function mbc:element/autosave/load
+
 ##Item check
 execute if items entity @s weapon.offhand *[custom_data={"mbc.action":prev}] run function mbc:tools/misc/pages/remove
 execute if items entity @s weapon.offhand *[custom_data={"mbc.action":next}] run function mbc:tools/misc/pages/add

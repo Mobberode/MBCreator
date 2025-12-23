@@ -6,6 +6,7 @@ scoreboard objectives add mbc.page dummy
 scoreboard objectives add mbc.ray_steps dummy
 scoreboard objectives add mbc.stats trigger
 scoreboard objectives add mbc.configure_element trigger
+scoreboard objectives add mbc.load_autosave trigger
 scoreboard objectives add mbc.condition dummy
 #Map Gamerule Prompt
 scoreboard objectives add mbc.prompt.gamerules dummy
@@ -31,3 +32,6 @@ schedule function mbc:init 1s
 
 ##Data-Driven Pages
 function mbc:load_pages
+
+##Autosave
+function mbc:element/autosave/init

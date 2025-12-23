@@ -1,6 +1,7 @@
 {
   "type": "multi_action",
   "title": "Mobberode Creator",
+  "pause": false,
   "exit_action": {
     "label": "Back",
     "action": {
@@ -15,7 +16,7 @@
       },
       "action": {
         "type": "run_command",
-        "command": "/trigger mbc.stats set 1"
+        "command": "/trigger mbc.stats"
       }
     }
   ]

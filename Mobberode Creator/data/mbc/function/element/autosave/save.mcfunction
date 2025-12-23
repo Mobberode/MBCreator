@@ -1,0 +1,1 @@
+data modify storage mbcreator:data autosave append from entity @s

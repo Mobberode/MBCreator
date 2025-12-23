@@ -1,11 +1,12 @@
 {
   "type": "multi_action",
   "title": "Mobberode Creator",
+  "pause": false,
   "body": [
     {
       "type": "plain_message",
       "contents": {
-        "text": "Release 3"
+        "text": "Release 4"
       }
     }
   ],
@@ -26,6 +27,15 @@
       "action": {
         "type": "run_command",
         "command": "/trigger mbc.configure_element"
+      }
+    },
+        {
+      "label": {
+        "text": "Load Latest Autosave"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mbc.load_autosave"
       }
     },
     {
